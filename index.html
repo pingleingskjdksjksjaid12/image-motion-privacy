@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Image Motion: Bring it to Life</title>
+<meta name="description" content="Bring still photos to life with motion, skies and live effects. No subscription, no ads.">
+<link rel="icon" href="icon.png">
+<style>
+:root{--bg:#0f1115;--card:#171a21;--ink:#ebe7df;--mute:#a3a9b5;--line:#2a2f3a;--acc:#f4b24a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:980px;margin:0 auto;padding:28px 16px 64px}
+header{display:flex;align-items:center;gap:14px;margin-bottom:22px}
+header img{width:56px;height:56px;border-radius:14px}
+h1{font-size:1.9rem;line-height:1.15;margin:0}
+.tag{color:var(--acc);font-weight:600;margin:2px 0 0}
+.hero{width:100%;border-radius:16px;border:1px solid var(--line);display:block}
+.lead{font-size:1.15rem;max-width:62ch;margin:26px 0}
+.shots{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:28px 0}
+.shots img{width:100%;border-radius:14px;border:1px solid var(--line)}
+ul.feat{columns:2;column-gap:32px;padding-left:20px;margin:0}
+ul.feat li{margin:0 0 8px;break-inside:avoid}
+.cta{display:inline-block;margin:28px 0 0;padding:12px 22px;border-radius:999px;background:var(--acc);color:#231703;font-weight:700;text-decoration:none}
+.soon{color:var(--mute);font-size:.95rem;margin-top:8px}
+footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--line);color:var(--mute);font-size:.92rem;display:flex;flex-wrap:wrap;gap:8px 20px}
+footer a{color:var(--mute)}
+@media (max-width:640px){.shots{grid-template-columns:1fr 1fr}.shots img:nth-child(3){display:none}ul.feat{columns:1}h1{font-size:1.5rem}}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <div><h1>Image Motion</h1><p class="tag">Bring it to life</p></div>
+  </header>
+  <img class="hero" src="feature.jpg" alt="Image Motion: two figures under a swirling aurora, with the app's name and tagline">
+  <p class="lead">Turn any photo into a seamless living loop. Draw arrows to set water flowing and clouds drifting, pin the parts that should stay still, and layer on live effects. Every loop joins up perfectly, ready for wallpapers, stories and posts.</p>
+  <ul class="feat">
+    <li>Motion arrows, anchors and a freeze brush</li>
+    <li>One-tap sky swaps and drifting clouds</li>
+    <li>Rain, snow, mist, fire, smoke, lightning and aurora</li>
+    <li>Lights in any shape, colour and pulse</li>
+    <li>Sparkles, fireflies, butterflies, birds and more</li>
+    <li>Film grain, VHS, wind sway and heat haze</li>
+    <li>Crop frames for Stories, Reels, posts and widescreen</li>
+    <li>Export MP4, WebM or GIF straight to your gallery</li>
+  </ul>
+  <div class="shots">
+    <img src="shot-1.jpg" alt="A finished loop in focus mode">
+    <img src="shot-2.jpg" alt="Drawing motion arrows">
+    <img src="shot-3.jpg" alt="Choosing live effects">
+  </div>
+  <p><strong>Free to use</strong>, with up to 3 layers in each export. One payment unlocks unlimited layers for good. No subscription, no account, no ads, and your photos never leave your phone.</p>
+  <a class="cta" href="#" aria-disabled="true">Coming soon to Google Play</a>
+  <p class="soon">Currently in testing on Android.</p>
+  <footer>
+    <span>Made by Coolwood Design Studio</span>
+    <a href="privacy.html">Privacy policy</a>
+    <a href="mailto:michael.coolwood@gmail.com">Contact</a>
+    <span>Sample artwork by Diana Necsulescu</span>
+  </footer>
+</main>
+</body>
+</html>
